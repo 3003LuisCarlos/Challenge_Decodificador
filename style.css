@@ -1,0 +1,134 @@
+*{  margin: 0;
+    padding: 0;
+    background-color: #4BA29A;
+    font-family: 'Inter Tight', sem serifa;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-image: url(alura.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 18%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border:none;
+    color: #0c0ce4;
+    margin-top: 90px;
+    text-transform:lowercase;
+    
+}
+
+::placeholder {color:#0c0ce4;}
+.text-area:focus{
+    outline: none;
+}
+
+.mensagem{
+    background: rgba(255, 255, 255, 0.747);
+    background-image:url(image/boneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0c0ce4;
+}
+
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+    padding-left: 3px;
+
+}
+
+.btn-1{
+    background: #edf04fc2;
+    border: 1px solid #4859c9;
+    color: #0c0ce4;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 67px;
+    margin-left: 30px;
+    width: 300px;
+    margin-top: 50px;
+    
+}
+
+.btn-2{
+    background: #edf04fc2;
+    border: 1px solid #4859c9;
+    color: #0c0ce4;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 67px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.btn-copiar{
+    background:  #edf04fc2;
+    border: 1px solid #4859c9;
+    color: #0c0ce4;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 67px;
+    width: 250px;
+    margin-top: 38px;
+    margin-left: 50px;
+}
+
+.informação{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.801);
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
